@@ -1,4 +1,4 @@
-prompt("Inserisci Nome")
-prompt("Inserisci Cognome")
-prompt("Inserisci colore preferito")
-document.getElementById("title").innerHTML="nomecongomecolorepreferito21"
+const firstname=prompt("Inserisci Nome");
+const lastname=prompt("Inserisci Cognome");
+const colore=prompt("Inserisci colore preferito");
+console.log(firstname+lastname+color+21);
